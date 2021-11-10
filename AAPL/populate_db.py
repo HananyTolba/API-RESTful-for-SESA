@@ -1,5 +1,5 @@
 import sqlite3
-
+import alpaca_trade_api as tradeapi
 connection = sqlite3.connect("app.db")
 
 cursor = connection.cursor()
