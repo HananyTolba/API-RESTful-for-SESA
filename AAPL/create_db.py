@@ -29,3 +29,4 @@ cursor.execute("""
     )
     
 """)
+connection.commit()
