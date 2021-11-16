@@ -1,5 +1,5 @@
 from datetime import datetime
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException, Request, Depends
 from fastapi.templating import Jinja2Templates
 
 from pydantic import BaseModel
